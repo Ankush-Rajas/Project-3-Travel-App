@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Explorer</h1>
+        <nav>
+            <ul>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search">
+        <h2>Discover Your Next Adventure</h2>
+        <input type="text" id="search-box" placeholder="Search destinations..." oninput="searchDestinations()">
+        <div id="suggestions"></div>
+    </section>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div id="destination-list"></div>
+    </section>
+
+    <section id="attractions">
+        <h2>Top Attractions</h2>
+        <div id="attraction-list"></div>
+    </section>
+
+    <section id="activities">
+        <h2>Exciting Activities</h2>
+        <div id="activity-list"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Explorer. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
